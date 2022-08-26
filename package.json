@@ -1,0 +1,23 @@
+{
+  "scripts": {
+    "postinstall": "chmod 777 temp && chmod 777 log",
+    "dev": "vite",
+    "build": "vite build",
+    "preview": "vite preview"
+  },
+  "dependencies": {
+    "@hotwired/turbo": "^7.1.0",
+    "@hotwired/stimulus": "^3.1.0",
+    "nette-forms": "^3.3.1"
+  },
+  "devDependencies": {
+    "vite": "^3.0.9",
+    "autoprefixer": "^10.4.8",
+    "tailwindcss": "^3.1.8",
+    "postcss": "^8.4.16",
+    "postcss-custom-media": "^8.0.2",
+    "postcss-custom-selectors": "^6.0.3",
+    "postcss-import": "^14.1.0",
+    "postcss-nesting": "^10.1.10"
+  }
+}

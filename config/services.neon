@@ -1,0 +1,9 @@
+services:
+        - App\Router\RouterFactory::createRouter
+
+extensions:
+    vite: Contributte\Vite\Nette\Extension
+
+vite:
+    manifestFile: %wwwDir%/manifest.json
+    templateProperty: vite
