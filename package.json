@@ -17,7 +17,7 @@
     "postcss": "^8.4.16",
     "postcss-custom-media": "^8.0.2",
     "postcss-custom-selectors": "^6.0.3",
-    "postcss-import": "^14.1.0",
+    "postcss-import": "^16.1.1",
     "postcss-nesting": "^10.1.10"
   }
 }
