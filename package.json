@@ -11,7 +11,7 @@
     "nette-forms": "^3.3.1"
   },
   "devDependencies": {
-    "vite": "^3.0.9",
+    "vite": "^7.3.1",
     "autoprefixer": "^10.4.8",
     "tailwindcss": "^3.1.8",
     "postcss": "^8.4.16",
