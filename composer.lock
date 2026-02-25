@@ -8,16 +8,16 @@
     "packages": [
         {
             "name": "latte/latte",
-            "version": "v3.1.1",
+            "version": "v3.1.2",
             "source": {
                 "type": "git",
                 "url": "https://github.com/nette/latte.git",
-                "reference": "cb98e705eeb0fd18f1f1c5cfe1a5f6217f9fa8b3"
+                "reference": "734ab908c17b28bd75b9331debd1901bec2f23ef"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/nette/latte/zipball/cb98e705eeb0fd18f1f1c5cfe1a5f6217f9fa8b3",
-                "reference": "cb98e705eeb0fd18f1f1c5cfe1a5f6217f9fa8b3",
+                "url": "https://api.github.com/repos/nette/latte/zipball/734ab908c17b28bd75b9331debd1901bec2f23ef",
+                "reference": "734ab908c17b28bd75b9331debd1901bec2f23ef",
                 "shasum": ""
             },
             "require": {
@@ -31,9 +31,11 @@
             },
             "require-dev": {
                 "nette/php-generator": "^4.0",
-                "nette/tester": "^2.5",
+                "nette/phpstan-rules": "^1.0",
+                "nette/tester": "^2.6",
                 "nette/utils": "^4.0",
-                "phpstan/phpstan-nette": "^2.0@stable",
+                "phpstan/extension-installer": "^1.4@stable",
+                "phpstan/phpstan": "^2.1@stable",
                 "tracy/tracy": "^2.10"
             },
             "suggest": {
@@ -91,9 +93,9 @@
             ],
             "support": {
                 "issues": "https://github.com/nette/latte/issues",
-                "source": "https://github.com/nette/latte/tree/v3.1.1"
+                "source": "https://github.com/nette/latte/tree/v3.1.2"
             },
-            "time": "2025-12-18T22:30:40+00:00"
+            "time": "2026-02-24T21:38:20+00:00"
         },
         {
             "name": "nette/application",
@@ -1657,12 +1659,12 @@
     ],
     "aliases": [],
     "minimum-stability": "stable",
-    "stability-flags": [],
+    "stability-flags": {},
     "prefer-stable": false,
     "prefer-lowest": false,
     "platform": {
         "php": "^8.4"
     },
-    "platform-dev": [],
+    "platform-dev": {},
     "plugin-api-version": "2.6.0"
 }
