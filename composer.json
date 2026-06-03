@@ -13,7 +13,7 @@
 	"license": ["MIT"],
 	"type": "project",
 	"require": {
-		"php": "^8.4",
+		"php": ">=8.4",
 		"nette/application": "^3.2",
 		"nette/bootstrap": "^3.2",
 		"nette/caching": "^3.3",
