@@ -14,20 +14,24 @@ A Nette application skeleton with Vite asset bundling and Tailwind CSS.
 ```bash
 composer create-project contributte/vite-skeleton acme
 cd acme
-composer install
 npm ci
 ```
 
 ## Local development
 
-Start the PHP application and Vite in separate terminals:
+Start the PHP application in one terminal:
 
 ```bash
 php -S 127.0.0.1:8000 -t www
+```
+
+Start the Vite asset server in a second terminal:
+
+```bash
 npm run dev
 ```
 
-Open the application at [http://127.0.0.1:8000](http://127.0.0.1:8000). Vite serves its development server separately; use the URL printed by `npm run dev`.
+Open the PHP application at [http://127.0.0.1:8000](http://127.0.0.1:8000). `npm run dev` starts the separate Vite asset server; use the URL it prints for that server.
 
 Build production assets with `npm run build`. `npm run preview` serves the generated Vite output for previewing it.
 
